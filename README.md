@@ -1,11 +1,5 @@
 <p align="center">
-<picture>
-    <src url="https://ibb.co/f9YCscF">
-</picture>
 </p>
-
-
-
 ### I. Install dependencies: Node.js, Docker, Git.
 
 <details>
@@ -17,67 +11,74 @@
 4. Install [Git for Windows](https://git-scm.com/download/win).
 
 In all installs it is OK to leave all the options at their default values. You will need a terminal to complete this tutorial - [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) bash is the preferred option.
-
 </details>
+
 <details>
 <summary>On Mac</summary>
 
 1. Install [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/).
 2. Install Git using the [installer](https://sourceforge.net/projects/git-osx-installer/) or by [other means](https://git-scm.com/download/mac).
 3. Install NodeJS LTS using the [official installer](https://nodejs.org/en/download).
+</details>
 
-
-<details>
-<summary>On Linux or Code spaces </summary>
-
+On Linux or Code spaces
 
 ### II. QUICK START 
 
 Open a terminal and run
 ```bash
-
-git clone <url>
+git clone https://github.com/Dwanx-9/Squid-quest-all.git
 ```
-
+```
 cd Subsquid
 ```
-
+```
 sudo apt update
 ```
-
+```
 sudo apt install git
+```
 ```
 sudo apt install nodejs
 ```
+
+```
 sudo apt install npm
+```
+
 ```
 npm install -g npm@10.2.0
 ```
+```
 sudo apt-get install ca-certificates curl gnupg lsb-release -y
 ```
-
+```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-```
-
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 ```
+```
 npm config set prefix ~/Subsquid
+```
 ```
 export PATH="${HOME}/Subsquid/bin:$PATH"
 ```
-
+```
 cd Subsquid
+```
 ```
 npm install --global @subsquid/cli@latest
 ```
 
 ### Quest Single Proc !!!
 
+```
 cd my-single-chain-squid
 ```
+```
 npm config set prefix ~/my-single-chain-squid
+```
 ```
 export PATH="${HOME}/my-single-chain-squid/bin:$PATH"
 ```
@@ -89,11 +90,12 @@ Press "Get Key" button in the quest card to obtain the `singleProc.key` key file
 </details>
 
 ### Running !!!
-
+```
 sqd up
 npm ci
 sqd build
 sqd migration:apply
+```
 ```
 sqd run .
 ```
@@ -106,12 +108,15 @@ CTRL + C
 sqd down
 ```
 ### Quest Double Proc !!!
-
+```
 cd ..
+```
 ```
 cd my-double-proc-squid
 ```
+```
 npm config set prefix ~/my-double-proc-squid
+```
 ```
 export PATH="${HOME}/my-double-proc-squid/bin:$PATH"
 ```
@@ -121,6 +126,7 @@ Press "Get Key" button in the quest card to obtain the `doubleProc.key` key file
 </details>
 
 ### Running !!!
+```
 sqd up
 npm ci
 sqd build
@@ -134,15 +140,19 @@ If the quest process is 100% complete and claim it. next Proc. key
 
 CTRL + C
 ```
+```
 sqd down
 ```
 ### Quest Triple Proc !!!
-
+```
 cd ..
+```
 ```
 cd my-triple-proc-squid
 ```
+```
 npm config set prefix ~/my-triple-proc-squid
+```
 ```
 export PATH="${HOME}/my-triple-proc-squid/bin:$PATH"
 ```
@@ -154,7 +164,7 @@ Press "Get Key" button in the quest card to obtain the `tripleProc.key` key file
 </details>
 
 ### Running !!!
-
+```
 sqd up
 npm ci
 sqd build
@@ -168,26 +178,31 @@ If the quest process is 100% complete and claim it. next Proc. key
 
 CTRL + C
 ```
+```
 sqd down
 ```
 
 ### Quest Quad Proc 
-
+```
 cd ..
+```
 ```
 cd my-quad-proc-squid
 ```
+```
 npm config set prefix ~/my-quad-proc-squid
+```
 ```
 export PATH="${HOME}/my-quad-proc-squid/bin:$PATH"
 ```
-
 <details>
 <summary>>upload Key quadproc.key</summary>
 Press "Get Key" button in the quest card to obtain the `quadProc.key` key file. Save it to the `./query-gateway/keys` subfolder of the squid folder. The file will be used by the query gateway container.
 </details>
+
 ### Running
 
+```
 sqd up
 npm ci
 sqd build
@@ -200,6 +215,7 @@ If the quest process is 100% complete and claim it. next Proc. key
 ### Stop running
 
 CTRL + C
+```
 ```
 sqd down
 ```
