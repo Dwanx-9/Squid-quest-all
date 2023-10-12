@@ -1,10 +1,8 @@
 <p align="center">
 <picture>
-    <img src="https://ibb.co/f9YCscF">
+    <src url="https://ibb.co/f9YCscF">
 </picture>
 </p>
-
-[Subsquid Network FAQ](https://docs.subsquid.io/subsquid-network/)
 
 
 
@@ -40,10 +38,13 @@ Open a terminal and run
 
 git clone <url>
 ```
+
 cd Subsquid
 ```
+
 sudo apt update
 ```
+
 sudo apt install git
 ```
 sudo apt install nodejs
@@ -53,8 +54,12 @@ sudo apt install npm
 npm install -g npm@10.2.0
 ```
 sudo apt-get install ca-certificates curl gnupg lsb-release -y
+```
+
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 ```
@@ -62,6 +67,7 @@ npm config set prefix ~/Subsquid
 ```
 export PATH="${HOME}/Subsquid/bin:$PATH"
 ```
+
 cd Subsquid
 ```
 npm install --global @subsquid/cli@latest
