@@ -91,6 +91,8 @@ Press "Get Key" button in the quest card to obtain the `singleProc.key` key file
 ### Running !!!
 ```
 sqd up
+```
+```
 npm ci
 sqd build
 sqd migration:apply
@@ -127,9 +129,12 @@ Press "Get Key" button in the quest card to obtain the `doubleProc.key` key file
 ### Running !!!
 ```
 sqd up
+```
+```
 npm ci
 sqd build
 sqd migration:apply
+```
 ```
 sqd run .
 ```
@@ -138,7 +143,6 @@ If the quest process is 100% complete and claim it. next Proc. key
 ### Stop running !!!
 
 CTRL + C
-```
 ```
 sqd down
 ```
@@ -165,9 +169,12 @@ Press "Get Key" button in the quest card to obtain the `tripleProc.key` key file
 ### Running !!!
 ```
 sqd up
+```
+```
 npm ci
 sqd build
 sqd migration:apply
+```
 ```
 sqd run .
 ```
@@ -176,7 +183,7 @@ If the quest process is 100% complete and claim it. next Proc. key
 ### Stop running !!!
 
 CTRL + C
-```
+
 ```
 sqd down
 ```
@@ -203,9 +210,12 @@ Press "Get Key" button in the quest card to obtain the `quadProc.key` key file. 
 
 ```
 sqd up
+```
+```
 npm ci
 sqd build
 sqd migration:apply
+```
 ```
 sqd run .
 ```
@@ -214,7 +224,7 @@ If the quest process is 100% complete and claim it. next Proc. key
 ### Stop running
 
 CTRL + C
-```
+
 ```
 sqd down
 ```
