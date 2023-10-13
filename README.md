@@ -58,16 +58,13 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 git clone https://github.com/Dwanx-9/Squid-quest-all.git
 ```
 ```
-cd Subsquid
+cd Squid-quest-all/Subsquid
 ```
 ```
 npm config set prefix ~/Subsquid
 ```
 ```
 export PATH="${HOME}/Subsquid/bin:$PATH"
-```
-```
-cd Subsquid
 ```
 ```
 npm install --global @subsquid/cli@latest
