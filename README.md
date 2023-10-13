@@ -57,14 +57,15 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 git clone https://github.com/Dwanx-9/Squid-quest-all.git
 ```
 ```
+cd Subsquid-quest-all/Subsquid
+```
+```
 npm config set prefix ~/Subsquid
 ```
 ```
 export PATH="${HOME}/Subsquid/bin:$PATH"
 ```
-```
-cd Subsquid
-```
+
 ```
 npm install --global @subsquid/cli@latest
 ```
@@ -125,8 +126,10 @@ export PATH="${HOME}/my-double-proc-squid/bin:$PATH"
 npm install --global @subsquid/cli@latest
 ```
 <details>
-<summary>>upload .Key</summary>
-Press "Get Key" button in the quest card to obtain the `doubleProc.key` key file. Save it to the `./query-gateway/keys` subfolder of the squid folder. The file will be used by the query gateway container.
+<summary>Creat Keys</summary>
+   go to `doubleProc.key` >>> add folder name `keys`
+Press "Get Key" button in the quest card to obtain the `doubleProc.key` key file
+   in Subsquid quest. Upload to`./query-gateway/keys` subfolder of the squid folder. The file will be used by the query gateway container.
 </details>
 
 ### Running !!!
