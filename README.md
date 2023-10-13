@@ -26,9 +26,7 @@ On Linux or Code spaces
 ### II. QUICK START 
 
 Open a terminal and run
-```bash
-git clone https://github.com/Dwanx-9/Squid-quest-all.git
-```
+
 ```
 cd Subsquid
 ```
@@ -57,6 +55,9 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
+```
+```bash
+git clone https://github.com/Dwanx-9/Squid-quest-all.git
 ```
 ```
 npm config set prefix ~/Subsquid
