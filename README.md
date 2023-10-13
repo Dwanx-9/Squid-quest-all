@@ -139,6 +139,7 @@ npm ci
 sqd build
 sqd migration:apply
 ```
+```
 sqd run .
 ```
 If the quest process is 100% complete and claim it. next Proc. key
@@ -146,7 +147,6 @@ If the quest process is 100% complete and claim it. next Proc. key
 ### Stop running !!!
 
 CTRL + C
-```
 ```
 sqd down
 ```
@@ -180,14 +180,16 @@ npm ci
 sqd build
 sqd migration:apply
 ```
+```
 sqd run .
 ```
+
 If the quest process is 100% complete and claim it. next Proc. key
 
 ### Stop running !!!
 
 CTRL + C
-```
+
 ```
 sqd down
 ```
@@ -221,14 +223,17 @@ npm ci
 sqd build
 sqd migration:apply
 ```
+
+```
 sqd run .
 ```
+
 If the quest process is 100% complete and claim it. next Proc. key
 
 ### Stop running
 
 CTRL + C
-```
+
 ```
 sqd down
 ```
