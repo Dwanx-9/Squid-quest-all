@@ -28,9 +28,6 @@ On Linux or Code spaces
 Open a terminal and run
 
 ```
-cd Subsquid
-```
-```
 sudo apt update
 ```
 ```
