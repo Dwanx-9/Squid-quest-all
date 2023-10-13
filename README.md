@@ -27,9 +27,7 @@ On Linux or Code spaces
 
 Open a terminal and run
 
-```
-cd Subsquid
-```
+
 ```
 sudo apt update
 ```
@@ -58,6 +56,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 ```
 ```bash
 git clone https://github.com/Dwanx-9/Squid-quest-all.git
+```
+```
+cd Subsquid
 ```
 ```
 npm config set prefix ~/Subsquid
