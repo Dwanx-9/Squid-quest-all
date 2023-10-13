@@ -81,6 +81,9 @@ npm config set prefix ~/my-single-chain-squid
 ```
 export PATH="${HOME}/my-single-chain-squid/bin:$PATH"
 ```
+```
+npm install --global @subsquid/cli@latest
+```
 
 <details>
 <summary>>upload .Key</summary>
@@ -121,6 +124,9 @@ npm config set prefix ~/my-double-proc-squid
 ```
 export PATH="${HOME}/my-double-proc-squid/bin:$PATH"
 ```
+```
+npm install --global @subsquid/cli@latest
+```
 <details>
 <summary>>upload .Key</summary>
 Press "Get Key" button in the quest card to obtain the `doubleProc.key` key file. Save it to the `./query-gateway/keys` subfolder of the squid folder. The file will be used by the query gateway container.
@@ -159,7 +165,9 @@ npm config set prefix ~/my-triple-proc-squid
 ```
 export PATH="${HOME}/my-triple-proc-squid/bin:$PATH"
 ```
-
+```
+npm install --global @subsquid/cli@latest
+```
 <details>
 <summary>>upload .Key</summary>
 Press "Get Key" button in the quest card to obtain the `tripleProc.key` key file. Save it to the `./query-gateway/keys` subfolder of the squid folder. The file will be used by the query gateway container.
@@ -200,6 +208,9 @@ npm config set prefix ~/my-quad-proc-squid
 ```
 ```
 export PATH="${HOME}/my-quad-proc-squid/bin:$PATH"
+```
+```
+npm install --global @subsquid/cli@latest
 ```
 <details>
 <summary>>upload Key quadproc.key</summary>
